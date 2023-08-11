@@ -1,0 +1,27 @@
+.container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #53c28b;
+}
+
+.hiemoji {
+  font-size: 3rem;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
